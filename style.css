@@ -448,7 +448,7 @@ form .send-btn:hover {
         padding: 18px 5%;
     }
     .hero {
-        height: 90vh;
+        
         background-position: center;
     }
 }
@@ -534,5 +534,91 @@ form .send-btn:hover {
         border-radius: 50%;
         object-fit: cover;
         margin: 0 auto;
+    }
+}
+@media (max-width: 540px) {
+    form .send-btn {
+        width: 50%;
+        margin-left: 25%;
+    }
+    header {
+        padding: 20px 2%;
+    }
+    .about-text {
+        text-align: left;
+    }
+    
+    .main-content p {
+        width: 90%;
+    }
+    :root {
+        --h1-font: 2.5rem;
+    }
+    .btn {
+        padding: 15px 26px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .about-text h2 {
+        font-size: 1.8rem;
+    }
+    .btn:first-child {
+        margin-bottom: 10px;
+    }
+    .social {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 380px) {
+    .h-btn {
+        padding: 10px 12px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    header {
+        padding-right: 12px;
+    }
+    #menu-icon {
+        font-size: 30px;
+    }
+    .main-content h4 {
+        font-size: 1.4rem;
+    }
+    .main-content h1 {
+        font-size: 2rem;
+    }
+    .portfolio-content {
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    }
+    .services-content {
+        grid-template-columns: repeat(auto-fit, minmax(280px,auto));
+    }
+    .btn:first-child {
+        margin-bottom: 10px;
+    }
+    .social {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 330px) {
+    .btn {
+        padding: 15px;
+    }
+    .row h4 {
+        font-size: 21px;
+    }
+    .row h5 {
+        font-size: 18px;
+    }
+    .row i {
+        width: 45px;
+        height: 45px;
+    }
+    form .send-btn {
+        padding: 10px;
     }
 }
